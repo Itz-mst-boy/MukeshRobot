@@ -12,7 +12,7 @@ from MukeshRobot import LOGGER, TEMP_DOWNLOAD_DIRECTORY
 from MukeshRobot import telethn as bot
 
 
-Credit = "AnonymousBoy1025"
+Credit = "Itz-mst-boy"
 
 
 @register(pattern="^/mmf ?(.*)")
@@ -205,4 +205,4 @@ async def drawText(image_path, text):
     return webp_file
 
 
-__mod_name__ = "mmf"
+__mod_name__ = "🚦ᴍᴍғ🚦"
