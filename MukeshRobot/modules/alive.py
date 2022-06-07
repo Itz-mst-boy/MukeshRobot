@@ -11,22 +11,22 @@ from MukeshRobot import telethn as tbot
 
 
 PHOTO = [
-    "https://telegra.ph/file/6a21ea6677342f43b363e.jpg",
-    "https://telegra.ph/file/40eb1ed850cdea274693e.jpg",
+    "https://telegra.ph/file/513796d93ca5aaed17378.jpg",
+    "https://telegra.ph/file/e55ac47f2ff51aaaf62b8.jpg",
 ]
 
 
 @register(pattern=("/alive"))
 async def awake(event):
-    TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ ꜰᴀʟʟᴇɴ ✘ ʀᴏʙᴏᴛ​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-    TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦](https://t.me/anonymous_was_bot)** \n\n"
+    TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ ᴍᴜᴋʜᴜsʜɪ ✘ ʀᴏʙᴏᴛ​**\n━━━━━━━━━━━━━━━━━━━\n\n"
+    TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [ᴍᴜᴋᴇsʜ](https://t.me/itz_mst_boy)** \n\n"
     TEXT += f"» **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{telever}` \n\n"
     TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n\n"
     TEXT += f"» **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n━━━━━━━━━━━━━━━━━\n\n"
     BUTTON = [
         [
-            Button.url("ʜᴇʟᴘ​", "https://t.me/FallenXRobot?start=help"),
-            Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/DevilsHeavenMF"),
+            Button.url("ʜᴇʟᴘ​", "https://t.me/groupcontrollertgbot?start=help"),
+            Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/worldwide_friend_zone"),
         ]
     ]
     ran = random.choice(PHOTO)
