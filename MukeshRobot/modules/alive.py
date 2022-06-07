@@ -11,7 +11,7 @@ from MukeshRobot import telethn as tbot
 
 
 PHOTO = [
-    "https://telegra.ph/file/513796d93ca5aaed17378.jpg",
+    "https://telegra.ph/file/0a8c86f34a2e46c4832f3.jpg",
     "https://telegra.ph/file/e55ac47f2ff51aaaf62b8.jpg",
 ]
 
