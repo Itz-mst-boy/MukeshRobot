@@ -99,7 +99,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from FallenRobot.config import Development as Config
+    from MukeshRobot.config import Development as Config
 
     TOKEN = Config.TOKEN
 
