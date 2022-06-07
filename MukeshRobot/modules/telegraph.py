@@ -92,4 +92,4 @@ I can upload files to Telegraph
  ❍ /tt :Get Telegraph Link of Replied Text
 """
 
-__mod_name__ = "T-Gʀᴀᴘʜ"
+__mod_name__ = "🔗T-Gʀᴀᴘʜ🔗"
