@@ -82,7 +82,8 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="✗ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ​ ✗", url="https://t.me/groupcontrollertgbot?startgroup=true"
+            text="✗ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ​ ✗",
+            url="https://t.me/groupcontrollertgbot?startgroup=true",
         ),
     ],
     [
@@ -93,7 +94,9 @@ buttons = [
         InlineKeyboardButton(text="⚡ʀᴇᴘᴏsɪᴛᴏʀʏ⚡", callback_data="source_"),
     ],
     [
-        InlineKeyboardButton(text="🌀sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ🌀", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(
+            text="🌀sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ🌀", url=f"https://t.me/{SUPPORT_CHAT}"
+        ),
         InlineKeyboardButton(
             text="📞 ᴅᴇᴠᴇʟᴏᴘᴇʀ 📞", url=f"https://t.me/{OWNER_USERNAME}"
         ),
