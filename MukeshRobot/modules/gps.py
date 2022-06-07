@@ -41,4 +41,4 @@ Sends you the gps location of the given query...
  ❍ /gps <location>*:* Get gps location.
 """
 
-__mod_name__ = "🔍Gᴘs🔍"
+__mod_name__ = "🌎Gᴘs🌎"
