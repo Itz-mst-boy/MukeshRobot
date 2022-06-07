@@ -90,7 +90,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="🥀ᴀʙᴏᴜᴛ ᴍᴇ🥀​​", callback_data="mukesh_"),
-        InlineKeyboardButton(text="⚡sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ⚡", callback_data="source_"),
+        InlineKeyboardButton(text="⚡ʀᴇᴘᴏsɪᴛᴏʀʏ⚡", callback_data="source_"),
     ],
     [
         InlineKeyboardButton(text="🌀sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ🌀", url=f"https://t.me/{SUPPORT_CHAT}"),
