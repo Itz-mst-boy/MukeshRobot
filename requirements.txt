@@ -24,6 +24,7 @@ google_trans_new
 jikanpy
 speedtest-cli
 coffeehouse
+register
 regex
 bleach
 git+https://github.com/starry69/python-markdown2.git
@@ -31,7 +32,7 @@ wikipedia
 telethon
 telegraph
 heroku3
-nekos.py
+nekos
 spamwatch
 alphabet_detector
 pyrate-limiter
