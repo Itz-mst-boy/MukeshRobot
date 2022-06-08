@@ -39,3 +39,4 @@ pymongo[srv]
 opencv-python-headless
 googletrans==3.1.0a0
 gpytranslate==1.4.0
+PyDictionary
