@@ -1,12 +1,12 @@
 import os
+import asyncio
 import requests
 import aiohttp
-import youtube_dl
+import yt_dlp
 
 from pyrogram import filters
-from MukeshRobot import pbot
 from youtube_search import YoutubeSearch
-from MukeshRobot.pyrogramee.errors import capture_err
+from MukeshRobot import pbot, SUPPORT_CHAT
 
 
 def time_to_seconds(time):
@@ -14,18 +14,19 @@ def time_to_seconds(time):
     return sum(int(x) * 60**i for i, x in enumerate(reversed(stringt.split(":"))))
 
 
-@pbot.on_message(filters.command(["song"]))
+@pbot.on_message(filters.command(["song", "music", " vsong", "video"]))
 def song(client, message):
 
+    message.delete()
     user_id = message.from_user.id
     user_name = message.from_user.first_name
-    rpk = "[" + user_name + "](tg://user?id=" + str(user_id) + ")"
+    chutiya = "[" + user_name + "](tg://user?id=" + str(user_id) + ")"
 
     query = ""
     for i in message.command[1:]:
         query += " " + str(i)
     print(query)
-    m = message.reply("🔎 ғɪɴᴅɪɴɢ ᴛʜᴇ sᴏɴɢ...")
+    m = message.reply("**» sᴇᴀʀᴄʜɪɴɢ, ᴩʟᴇᴀsᴇ ᴡᴀɪᴛ...**")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -43,17 +44,17 @@ def song(client, message):
 
     except Exception as e:
         m.edit(
-            "✖️ Found Nothing. Sorry.\n\nTry another keyword or maybe spell it properly."
+            "**😴 sᴏɴɢ ɴᴏᴛ ғᴏᴜɴᴅ ᴏɴ ʏᴏᴜᴛᴜʙᴇ.**\n\n» ᴍᴀʏʙᴇ ᴛᴜɴᴇ ɢᴀʟᴛɪ ʟɪᴋʜᴀ ʜᴏ, ᴩᴀᴅʜᴀɪ - ʟɪᴋʜᴀɪ ᴛᴏʜ ᴋᴀʀᴛᴀ ɴᴀʜɪ ᴛᴜ !"
         )
         print(str(e))
         return
-    m.edit("`ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ sᴏɴɢ ʙʙ... ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ⏱`")
+    m.edit("» ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ...\n\nᴩʟᴇᴀsᴇ ᴡᴀɪᴛ...")
     try:
-        with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f"🎙 **ᴛɪᴛʟᴇ**: [{title[:35]}]({link})\n🎬 **sᴏᴜʀᴄᴇ**: ʏᴏᴜᴛᴜʙᴇ\n⏱️ **ᴅᴜʀᴀᴛɪᴏɴ**: `{duration}`\n👁‍🗨 **ᴠɪᴇᴡs**: `{views}`\n📤 **ʙʏ**: [ᴍᴜᴋᴇsʜ](t.me/itz_mst_boy)"
+        rep = f"**ᴛɪᴛʟᴇ :** {title[:25]}\n**ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}`\n**ᴠɪᴇᴡs :** `{views}`\n**ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ​ »** {chutiya}"
         secmul, dur, dur_arr = 1, 0, duration.split(":")
         for i in range(len(dur_arr) - 1, -1, -1):
             dur += int(dur_arr[i]) * secmul
@@ -68,7 +69,9 @@ def song(client, message):
         )
         m.delete()
     except Exception as e:
-        m.edit("❌ Error")
+        m.edit(
+            f"**» ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴇʀʀᴏʀ, ʀᴇᴩᴏʀᴛ ᴛʜɪs ᴀᴛ​ » [sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ](t.me/{SUPPORT_CHAT}) 💕**\n\**ᴇʀʀᴏʀ :** {e}"
+        )
         print(e)
 
     try:
@@ -78,4 +81,4 @@ def song(client, message):
         print(e)
 
 
-__mod_name__ = "🎶sᴏɴɢ🎶"
+__mod_name__ = "🔺Sᴏɴɢ🔺"
