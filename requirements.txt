@@ -5,7 +5,7 @@ beautifulsoup4
 bleach
 cachetools
 configparser
-Python_ARQ
+python-arq
 currencyconverter
 emoji
 feedparser
