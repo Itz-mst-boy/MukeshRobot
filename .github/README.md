@@ -13,7 +13,7 @@
   <img src="https://github.com/Itz-mst-boy/MukeshRobot/blob/main/MukeshRobot/resources/mukesh.jpg">
 </p>
 
-## ㅤㅤㅤᴍᴜᴋʜᴜsʜɪ 🖤 ʀᴏʙᴏᴛ🖤
+## ㅤㅤㅤᴍᴜᴋʜᴜsʜɪ  ʀᴏʙᴏᴛ
 ɪ ᴀᴍ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [💞ᴍᴜᴋʜᴜsʜɪ ʀᴏʙᴏᴛ​💞](https://t.me/groupcontrollertgbot)
 ᴛʜɪs ɪs ᴀ ᴅᴇᴍᴏ ʙᴏᴛ <br> ɪ ᴅᴏɴ'ᴛ ᴋɴᴏᴡ нσω ʟᴏɴɢᴇʀ ɪ'ʟʟ вε ʜᴏsᴛɪɴɢ ɪᴛ​...
 ━━━━━━━━━━━━━━━━━━━━━━
@@ -22,11 +22,10 @@
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Itz-mst-boy/MukeshRobot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
  ━━━━━━━━━━━━━━━━━━━━━━
 
-### ㅤㅤㅤㅤCREDITS 😘
+### ㅤㅤㅤㅤᴄʀᴇᴅɪᴛs 
 
-🖤 𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 :ᴍᴇ ᴏɴ [ᴛᴇʟᴇɢʀᴀᴍ💔](https://telegram.me/anonymous_was_bot)
-  ᴍᴜᴋᴇsʜ :- ᴍᴇ ᴏɴ [ɢɪᴛʜᴜʙ](https://github.com/Itz-mst-boy)  
-   ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ᴏɴ ᴛɢ [ᴍᴜᴋᴇsʜ](https://t.me/itz_mst_boy)
+ [ᴀɴᴏɴʏᴍᴏᴜs](https://telegram.me/anonymous_was_bot)  
+   [ᴍᴜᴋᴇsʜ](https://t.me/itz_mst_boy)
 
  ###  SUPPORT 
 
