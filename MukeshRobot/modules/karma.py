@@ -16,8 +16,8 @@ from MukeshRobot.ex_plugins.dbfunctions import (
     karma_on,
     update_karma,
 )      
-from ShuKurenaiXRoBot.utils.filter_groups import karma_negative_group, karma_positive_group
-from ShuKurenaiXRoBot import arq
+from MukeshRobot.utils.filter_groups import karma_negative_group, karma_positive_group
+from MukeshRobot import arq
 
 regex_upvote = r"^((?i)\+|\+\+|\+1|thx|thanx|thanks|pro|cool|good|👍)$"
 regex_downvote = r"^(\-|\-\-|\-1|👎|noob|weak)$"
