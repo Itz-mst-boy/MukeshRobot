@@ -57,4 +57,3 @@ aiofiles
 motor
 telegram
 gpytranslate
-yt-dlp
