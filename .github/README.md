@@ -13,7 +13,7 @@
   <img src="https://github.com/Itz-mst-boy/MukeshRobot/blob/main/MukeshRobot/resources/mukesh.jpg">
 </p>
 
-## ㅤㅤㅤᴍᴜᴋʜᴜsʜɪ  ʀᴏʙᴏᴛ
+## ㅤㅤㅤᴍᴜᴋᴇsʜ ʀᴏʙᴏᴛ
 ɪ ᴀᴍ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [💞ᴍᴜᴋʜᴜsʜɪ ʀᴏʙᴏᴛ​💞](https://t.me/groupcontrollertgbot)
 ᴛʜɪs ɪs ᴀ ᴅᴇᴍᴏ ʙᴏᴛ <br> ɪ ᴅᴏɴ'ᴛ ᴋɴᴏᴡ нσω ʟᴏɴɢᴇʀ ɪ'ʟʟ вε ʜᴏsᴛɪɴɢ ɪᴛ​...
 ━━━━━━━━━━━━━━━━━━━━━━
