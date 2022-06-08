@@ -138,6 +138,8 @@ else:
     PORT = Config.PORT
     CERT_PATH = Config.CERT_PATH
     API_ID = Config.API_ID
+    ARQ_API_URL = "https://grambuilders.tech"
+    ARQ_API = "SMINJX-OXJKOS-KFXZMD-CSLZRO-ARQ"
     API_HASH = Config.API_HASH
     DB_URI = Config.SQLALCHEMY_DATABASE_URI
     MONGO_DB_URI = Config.MONGO_DB_URI
