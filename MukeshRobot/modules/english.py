@@ -8,7 +8,7 @@ import os
 import urllib.request
 from typing import List
 from typing import Optional
-from PyDictionary import PyDictionary
+from MukeshRobot import PyDictionary
 from telethon.tl import types
 from telethon.tl.types import *
 
