@@ -7,7 +7,6 @@ requests
 python-telegram-bot==12.8
 sqlalchemy==1.3.23
 PyDictionary
-gpytranslate
 psycopg2-binary
 feedparser
 hachoir
@@ -25,7 +24,6 @@ google_trans_new
 jikanpy
 speedtest-cli
 coffeehouse
-register
 regex
 bleach
 git+https://github.com/starry69/python-markdown2.git
@@ -33,7 +31,7 @@ wikipedia
 telethon
 telegraph
 heroku3
-nekos
+nekos.py
 spamwatch
 alphabet_detector
 pyrate-limiter
