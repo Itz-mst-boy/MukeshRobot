@@ -16,13 +16,13 @@ from MukeshRobot import dispatcher
 
 
 edit_time = 5
-""" =======================FALLEN ROBOT====================== """
+""" =======================ᴍᴜᴋᴇsʜ ʀᴏʙᴏᴛ====================== """
 file1 = "https://telegra.ph/file/9a85d0a873e2dd80d278d.jpg"
 file2 = "https://telegra.ph/file/9e7815284031452afa9e5.jpg"
 file3 = "https://telegra.ph/file/dcc5e003287f69acea368.jpg"
 file4 = "https://telegra.ph/file/ed1ce7fee94f46b0f671e.jpg"
 file5 = "https://telegra.ph/file/701028ce085ecfa961a36.jpg"
-""" =======================FALLEN ROBOT====================== """
+""" =======================ᴍᴜᴋᴇsʜ ʀᴏʙᴏᴛ====================== """
 
 
 @register(pattern="/myinfo")
