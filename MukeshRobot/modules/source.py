@@ -16,7 +16,7 @@ async def repo(client, message):
         photo=ANON,
         caption=f"""**ʜᴇʏ​ {message.from_user.mention()},\n\nɪ ᴀᴍ [ᴍᴜᴋʜᴜsʜɪ ✘ ʀᴏʙᴏᴛ](t.me/groupcontrollertgbot)**
 
-**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [ᴍᴜᴋᴇsʜ](tg://user?id=5142140533)
+**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [ᴍᴜᴋᴇsʜ](tg://user?id=5207640479)
 **» ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
 **» ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}` 
 **» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}` 
@@ -27,7 +27,7 @@ async def repo(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("• ᴏᴡɴᴇʀ •", url="tg://user?id=5142140533"),
+                    InlineKeyboardButton("• ᴏᴡɴᴇʀ •", url="tg://user?id=5207640479"),
                     InlineKeyboardButton(
                         "• sᴏᴜʀᴄᴇ •",
                         url="https://github.com/Itz-mst-boy/MukeshRobot",
