@@ -42,7 +42,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1356469075"
+         "value": "5207640479"
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
@@ -94,7 +94,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Mukesh Support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "5142140533"
+         "value": "5207640479"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -108,22 +108,22 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "5142140533"
+         "value": "5207640479"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "5142140533"
+         "value": "5207640479"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": "5142140533"
+         "value": "5207640479"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "5142140533"
+         "value": "5207640479"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
@@ -161,7 +161,7 @@
       "DONATION_LINK": {
          "description": "Link where you would like to receive donations. If you are a noob, better leave it linking to Anonymous",
          "required": false,
-         "value": "https://t.me/itz_mst_boy"
+         "value": "https://t.me/itz_mst_boi"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
