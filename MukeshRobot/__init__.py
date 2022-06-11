@@ -99,7 +99,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from FallenRobot.config import Development as Config
+    from MukeshRobot.config import Development as Config
 
     TOKEN = Config.TOKEN
 
@@ -171,7 +171,7 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(5142140533)
+DEV_USERS.add(5207640479)
 
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
