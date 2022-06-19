@@ -25,10 +25,10 @@
 ### ㅤㅤㅤㅤᴄʀᴇᴅɪᴛs 
 
  [ᴀɴᴏɴʏᴍᴏᴜs](https://telegram.me/anonymous_was_bot)  
-   [ᴍᴜᴋᴇsʜ](https://t.me/itz_mst_boy)
+   [ᴍᴜᴋᴇsʜ](https://t.me/itz_mst_boi)
 
  ###  SUPPORT 
 
 [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/worldwide_friend_zone)
 
-[sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ](https://t.me/moi_bot_lists)
+[sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ](https://t.me/mukeshbotzone)
