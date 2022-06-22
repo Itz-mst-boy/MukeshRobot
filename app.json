@@ -1,7 +1,7 @@
 {
       "name": "Mukesh Robot",
       "description": "Telegram Group Management Bot.",
-      "logo": "https://telegra.ph/file/72e135da30a1a349f2844.jpg",
+      "logo": "https://telegra.ph/file/c84f9c553c6e14e99b93d.jpg",
       "keywords": [
          "telegram",
          "sexy",
@@ -54,7 +54,7 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "itz_mst_boy"
+         "value": "itz_mst_boi"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Mukesh Support than consider you made an enemy.",
@@ -69,7 +69,7 @@
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": ""
+         "value": "-1001689952468"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
@@ -99,7 +99,7 @@
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
          "required": false,
-         "value": ""
+         "value": "09i2gqhAMVMR1E1HM2jX81FOjj_RJSuplJmdwb5ABK8OULB8qD6JUv5Mz8umicpg"
       }, 
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
@@ -170,7 +170,7 @@
       "START_IMG": {
       "description": "Telegraph link of the image which will be shown at start command.",
          "required": false,
-         "value": ""
+         "value": "https://telegra.ph/file/c84f9c553c6e14e99b93d.jpg"
    },      
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
