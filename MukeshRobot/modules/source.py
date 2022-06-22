@@ -7,8 +7,7 @@ from pyrogram import filters
 from MukeshRobot import pbot as client
 
 
-ANON = "
-https://telegra.ph/file/8d5c10651b5023697b3a9.jpg"
+ANON = "https://telegra.ph/file/8d5c10651b5023697b3a9.jpg"
 
 
 @client.on_message(filters.command(["repo", "source"]))
