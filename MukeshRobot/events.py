@@ -1,5 +1,4 @@
 import inspect
-import glob
 import logging
 import sys
 import re
@@ -21,7 +20,7 @@ def register(**args):
     """Registers a new message."""
     pattern = args.get("pattern", None)
 
-    r_pattern = r"^[/!]"
+    r_pattern = r"^[/!.]"
 
     if pattern is not None and not pattern.startswith("(?i)"):
         args["pattern"] = "(?i)" + pattern
@@ -176,42 +175,3 @@ def MukeshRobot(**args):
     if pattern:
         if not ignore_unsafe:
             args["pattern"] = args["pattern"].replace("^.", unsafe_pattern, 1)
-
-
-def load_module(shortname):
-    if shortname.startswith("__"):
-        pass
-    elif shortname.endswith("_"):
-        import importlib
-        import MukeshRobot.events
-
-        path = Path(f"MukeshRobot/modules/{shortname}.py")
-        name = "MukeshRobot.modules.{}".format(shortname)
-        spec = importlib.util.spec_from_file_location(name, path)
-        mod = importlib.util.module_from_spec(spec)
-        spec.loader.exec_module(mod)
-        print("Successfully imported " + shortname)
-    else:
-        import importlib
-        import MukeshRobot.events
-
-        path = Path(f"MukeshRobot/modules/{shortname}.py")
-        name = "MukeshRobot.modules.{}".format(shortname)
-        spec = importlib.util.spec_from_file_location(name, path)
-        mod = importlib.util.module_from_spec(spec)
-        mod.register = register
-        mod.MukeshRobot = MukeshRobot
-        mod.tbot = telethn
-        mod.logger = logging.getLogger(shortname)
-        spec.loader.exec_module(mod)
-        sys.modules["MukeshRobot.modules." + shortname] = mod
-        print("Successfully imported " + shortname)
-
-
-path = "MukeshRobot/modules/*.py"
-files = glob.glob(path)
-for name in files:
-    with open(name) as f:
-        path1 = Path(f.name)
-        shortname = path1.stem
-        load_module(shortname.replace(".py", ""))
