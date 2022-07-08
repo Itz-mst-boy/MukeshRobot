@@ -25,7 +25,7 @@ DARE = (
     "Let the rest of the group DM someone from your Instagram account",
     "Eat a raw piece of garlic",
     "Do 100 squats",
-    "Tell @itz_mst_boy that you love him.",
+    "Tell @itz_mst_boi that you love him.",
     "Keep three ice cubes in your mouth until they melt",
     "Say something dirty to the person on your leftYou've got company!",
     "Give a foot massage to the person on your right",
