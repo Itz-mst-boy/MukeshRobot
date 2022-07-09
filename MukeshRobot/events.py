@@ -12,7 +12,7 @@ from MukeshRobot import telethn
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
-db = client["Anonymous"]
+db = client["Mukesh"]
 gbanned = db.gban
 
 
@@ -146,7 +146,7 @@ def bot(**args):
     return decorator
 
 
-def MukeshRobot(**args):
+def fallenrobot(**args):
     pattern = args.get("pattern", None)
     disable_edited = args.get("disable_edited", False)
     ignore_unsafe = args.get("ignore_unsafe", False)
