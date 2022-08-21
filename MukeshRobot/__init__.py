@@ -5,8 +5,11 @@ import time
 
 import telegram.ext as tg
 from aiohttp import ClientSession
+from Python_ARQ import ARQ
+from pyrogram.types import Message
 from pyrogram import Client, errors
 from telethon import TelegramClient
+from inspect import getfullargspec
 
 StartTime = time.time()
 
@@ -25,6 +28,14 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
         "You MUST have a python version of at least 3.6! Multiple features depend on this. Bot quitting."
     )
     quit(1)
+async def eor(msg: Message, **kwargs):
+    func = (
+        (msg.edit_text if msg.from_user.is_self else msg.reply)
+        if msg.from_user
+        else msg.reply
+   )
+    spec = getfullargspec(func.__wrapped__).args
+    return await func(**{k: v for k, v in kwargs.items() if k in spec})
 
 ENV = bool(os.environ.get("ENV", False))
 
@@ -76,7 +87,6 @@ if ENV:
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
-    OPENWEATHERMAP_ID = os.environ.get("OPENWEATHERMAP_ID", None)
     VIRUS_API_KEY = os.environ.get("VIRUS_API_KEY", None)
     LOAD = os.environ.get("LOAD", "").split()
     BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
@@ -89,7 +99,10 @@ if ENV:
     CASH_API_KEY = os.environ.get("CASH_API_KEY", None)
     TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
     WALL_API = os.environ.get("WALL_API", None)
+    REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None) # From:- https://www.remove.bg/
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", None)
+    ARQ_API_URL = os.environ.get("ARQ_API_URL", "https://arq.hamker.in")
+    ARQ_API_KEY = os.environ.get("ARQ_API_KEY", "LJMETG-DPHBCX-DGHJCD-TMFIGB-ARQ")
 
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
 
@@ -141,10 +154,10 @@ else:
     API_HASH = Config.API_HASH
     DB_URI = Config.SQLALCHEMY_DATABASE_URI
     MONGO_DB_URI = Config.MONGO_DB_URI
+    START_IMG = Config.START_IMG
     HEROKU_API_KEY = Config.HEROKU_API_KEY
     HEROKU_APP_NAME = Config.HEROKU_APP_NAME
     TEMP_DOWNLOAD_DIRECTORY = Config.TEMP_DOWNLOAD_DIRECTORY
-    OPENWEATHERMAP_ID = Config.OPENWEATHERMAP_ID
     VIRUS_API_KEY = Config.VIRUS_API_KEY
     DONATION_LINK = Config.DONATION_LINK
     LOAD = Config.LOAD
@@ -161,7 +174,8 @@ else:
     WALL_API = Config.WALL_API
     SUPPORT_CHAT = Config.SUPPORT_CHAT
     INFOPIC = Config.INFOPIC
-    REDIS_URL = Config.REDIS_URL
+    ARQ_API_KEY = Config.ARQ_API_KEY
+    ARQ_API_URL = Config.ARQ_API_URL
 
     try:
         BL_CHATS = set(int(x) for x in Config.BL_CHATS or [])
@@ -180,6 +194,16 @@ telethn = TelegramClient("Mukesh", API_ID, API_HASH)
 pbot = Client("MukeshRobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 aiohttpsession = ClientSession()
+# Bot info
+print("[INFO]: Getting Bot Info...")
+BOT_ID = dispatcher.bot.id
+BOT_NAME = dispatcher.bot.first_name
+BOT_USERNAME = dispatcher.bot.username
+
+
+# ARQ Client
+print("[INFO]: INITIALIZING ARQ CLIENT...")
+arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
 
 DRAGONS = list(DRAGONS) + list(DEV_USERS)
 DEV_USERS = list(DEV_USERS)
