@@ -10,7 +10,7 @@
 </p>
 ━━━━━━━━━━━━━━━━━━━━━━
 <p align="center">
-  <img src="/MukeshRobot/resources/e2b12aa3a88333ed74cfb.mp4">
+  <img src="https://te.legra.ph/file/f35dc5fd13cd97947879c.mp4">
 </p>
 
 ## ㅤㅤㅤɢʀᴏᴜᴘ ᴄᴏɴᴛʀᴏʟʟᴇʀ ʀᴏʙᴏᴛ
