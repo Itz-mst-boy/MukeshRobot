@@ -146,5 +146,5 @@ BUTTON_HANDLER = CallbackQueryHandler(callback_button, pattern="db_.*")
 dispatcher.add_handler(DB_CLEANUP_HANDLER)
 dispatcher.add_handler(BUTTON_HANDLER)
 
-__mod_name__ = "🚦ᴅʙ🚦"
+__mod_name__ = "ᴅʙ🚦"
 __handlers__ = [DB_CLEANUP_HANDLER, BUTTON_HANDLER]
