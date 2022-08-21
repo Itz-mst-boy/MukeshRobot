@@ -176,7 +176,7 @@ def __migrate__(old_chat_id, new_chat_id):
 __help__ = """
 ➪ /broadcastall -  to broadcast msg
 ➪ /groups -  to cheak grps stats
-➪ /users - users stats
+➪ /users - users stats """
 
 BROADCAST_HANDLER = CommandHandler(
     ["broadcastall", "broadcastusers", "broadcastgroups"], broadcast
