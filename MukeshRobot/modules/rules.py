@@ -161,7 +161,7 @@ __help__ = """
  ‣ `/clearrules`*:* clear the rules for this chat.
 """
 
-__mod_name__ = "🚦Rᴜʟᴇs🚦"
+__mod_name__ = "Rᴜʟᴇs🚦"
 
 GET_RULES_HANDLER = CommandHandler("rules", get_rules)
 SET_RULES_HANDLER = CommandHandler("setrules", set_rules)
