@@ -8,7 +8,6 @@
     <a href="https://github.com/Itz-mst-boy/MukeshRobot/network/members"> <img src="https://img.shields.io/github/forks/Itz-mst-boy/MukeshRobot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
-━━━━━━━━━━━━━━━━━━━━━━
 <p align="center">
   <img src="https://te.legra.ph/file/f35dc5fd13cd97947879c.mp4">
 </p>
