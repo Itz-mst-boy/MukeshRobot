@@ -10,7 +10,7 @@
 </p>
 ━━━━━━━━━━━━━━━━━━━━━━
 <p align="center">
-  <ᴠideo src="./MukeshRobot/blob/main/MukeshRobot/resources/e2b12aa3a88333ed74cfb.mp4">
+  <img src="./MukeshRobot/blob/main/MukeshRobot/resources/e2b12aa3a88333ed74cfb.mp4">
 </p>
 
 ## ㅤㅤㅤɢʀᴏᴜᴘ ᴄᴏɴᴛʀᴏʟʟᴇʀ ʀᴏʙᴏᴛ
