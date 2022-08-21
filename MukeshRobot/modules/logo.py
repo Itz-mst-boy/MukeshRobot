@@ -299,10 +299,10 @@ async def lego(event):
         await event.reply(f"ғʟᴏᴏᴅᴡᴀɪᴛ ᴇʀʀᴏʀ, ʀᴇᴩᴏʀᴛ ᴛʜɪs ᴀᴛ @worldwide_friend_zone")
 
 
-__mod_name__ = "Lᴏɢᴏ​"
+__mod_name__ = "Lᴏɢᴏ▼​"
 
 __help__ = """
-Mukhushi Robot can create some beautiful and attractive logo for your profile pics.
+ɢʀᴏᴜᴘ ᴄᴏɴᴛʀᴏʟʟᴇʀ Robot can create some beautiful and attractive logo for your profile pics.
 
 ❍ /logo (Text) *:* Create a logo of your given text with random view.
 """
