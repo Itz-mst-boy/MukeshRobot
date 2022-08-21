@@ -10,10 +10,10 @@
 </p>
 ━━━━━━━━━━━━━━━━━━━━━━
 <p align="center">
-  <img src="https://github.com/Itz-mst-boy/MukeshRobot/blob/main/MukeshRobot/resources/mukesh.jpg">
+  <img src="https://github.com/Itz-mst-boy/MukeshRobot/blob/main/MukeshRobot/resources/e2b12aa3a88333ed74cfb.mp4">
 </p>
 
-## ㅤㅤㅤᴍᴜᴋᴇsʜ ʀᴏʙᴏᴛ
+## ㅤㅤㅤɢʀᴏᴜᴘ ᴄᴏɴᴛʀᴏʟʟᴇʀ ʀᴏʙᴏᴛ
 ɪ ᴀᴍ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [💞ᴍᴜᴋʜᴜsʜɪ ʀᴏʙᴏᴛ​💞](https://t.me/groupcontrollertgbot)
 ᴛʜɪs ɪs ᴀ ᴅᴇᴍᴏ ʙᴏᴛ <br> ɪ ᴅᴏɴ'ᴛ ᴋɴᴏᴡ нσω ʟᴏɴɢᴇʀ ɪ'ʟʟ вε ʜᴏsᴛɪɴɢ ɪᴛ​...
 ━━━━━━━━━━━━━━━━━━━━━━
