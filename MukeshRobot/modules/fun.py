@@ -2,11 +2,11 @@ import html
 import random
 import time
 
-import FallenRobot.modules.fun_strings as fun_strings
-from FallenRobot import dispatcher
-from FallenRobot.modules.disable import DisableAbleCommandHandler
-from FallenRobot.modules.helper_funcs.chat_status import is_user_admin
-from FallenRobot.modules.helper_funcs.extraction import extract_user
+import MukeshRobot.modules.fun_strings as fun_strings
+from MukeshRobot import dispatcher
+from MukeshRobot.modules.disable import DisableAbleCommandHandler
+from MukeshRobot.modules.helper_funcs.chat_status import is_user_admin
+from MukeshRobot.modules.helper_funcs.extraction import extract_user
 from telegram import ChatPermissions, ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, run_async
@@ -67,7 +67,7 @@ def slap(update: Update, context: CallbackContext):
     user_id = extract_user(message, args)
 
     if user_id == bot.id:
-        temp = random.choice(fun_strings.SLAP_FALLEN_TEMPLATES)
+        temp = random.choice(fun_strings.SLAP_MUKESH_TEMPLATES)
 
         if isinstance(temp, list):
             if temp[2] == "tmute":
@@ -371,7 +371,7 @@ dispatcher.add_handler(DECIDE_HANDLER)
 dispatcher.add_handler(EIGHTBALL_HANDLER)
 dispatcher.add_handler(TABLE_HANDLER)
 
-__mod_name__ = "Fᴜɴ​"
+__mod_name__ = "Fᴜɴ​🥳"
 __command_list__ = [
     "runs",
     "slap",
