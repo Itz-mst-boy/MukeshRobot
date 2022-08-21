@@ -16,13 +16,13 @@ from MukeshRobot import dispatcher
 
 
 edit_time = 5
-""" =======================ᴍᴜᴋᴇsʜ ʀᴏʙᴏᴛ====================== """
+""" =======================ɢʀᴏᴜᴘ ᴄᴏɴᴛʀᴏʟʟᴇʀ====================== """
 file1 = "https://telegra.ph/file/9a85d0a873e2dd80d278d.jpg"
 file2 = "https://telegra.ph/file/9e7815284031452afa9e5.jpg"
 file3 = "https://telegra.ph/file/dcc5e003287f69acea368.jpg"
 file4 = "https://telegra.ph/file/ed1ce7fee94f46b0f671e.jpg"
 file5 = "https://telegra.ph/file/701028ce085ecfa961a36.jpg"
-""" =======================ᴍᴜᴋᴇsʜ ʀᴏʙᴏᴛ====================== """
+""" =======================ɢʀᴏᴜᴘ ᴄᴏɴᴛʀᴏʟʟᴇʀ====================== """
 
 
 @register(pattern="/myinfo")
@@ -72,12 +72,12 @@ async def callback_query_handler(event):
         boy = event.sender_id
         PRO = await bot.get_entity(boy)
         LILIE = "ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴜᴋᴇsʜ\n\n"
-        LILIE += f"FIRST NAME : {PRO.first_name} \n"
-        LILIE += f"LAST NAME : {PRO.last_name}\n"
-        LILIE += f"YOU BOT : {PRO.bot} \n"
-        LILIE += f"RESTRICTED : {PRO.restricted} \n"
-        LILIE += f"USER ID : {boy}\n"
-        LILIE += f"USERNAME : {PRO.username}\n"
+        LILIE += f"ғɪʀsᴛ ɴᴀᴍᴇ: {PRO.first_name} \n"
+        LILIE += f"ʟᴀsᴛ ɴᴀᴍᴇ : {PRO.last_name}\n"
+        LILIE += f"ʙᴏᴛ : {PRO.bot} \n"
+        LILIE += f"ʀᴇsᴛʀɪᴄᴛᴇᴅ: {PRO.restricted} \n"
+        LILIE += f"ᴜsᴇʀ ɪᴅ: {boy}\n"
+        LILIE += f"ᴜsᴇʀɴᴀᴍᴇ : {PRO.username}\n"
         await event.answer(LILIE, alert=True)
     except Exception as e:
         await event.reply(f"{e}")
