@@ -1,15 +1,15 @@
 {
-      "name": "Mukesh Robot",
+      "name": "Adventure Robot",
       "description": "Telegram Group Management Bot.",
-      "logo": "https://telegra.ph/file/c84f9c553c6e14e99b93d.jpg",
+      "logo": "https://telegra.ph/file/3117ae688980a7163ab5e.jpg",
       "keywords": [
          "telegram",
          "sexy",
          "group",
          "manager",
-         "Mukesh"
+         "Adventure"
       ],   
-   "repository": "https://github.com/Itz-mst-boy/MukeshRobot",
+   "repository": "https://github.com/noob-mukesh/MukeshRobot",
    "addons": [
       {
          "options": {
@@ -22,7 +22,7 @@
       "TOKEN": {
          "description": "Get bot token from @BotFather on TG",
          "required": true,
-         "value": ""
+         "value": "5559518126:AAHs1G_S_52pHu36JbBQNMmKCIoLEez_8ok"
       },
       "API_ID": {
          "description": "Get this value from my.telegram.org/apps.",
@@ -32,7 +32,7 @@
       "API_HASH": {
          "description": "Get this value from my.telegram.org/apps.",
          "required": true,
-         "value": ""
+         "value": "d94fe90a1d7ee5ce6f36b20d4ca79280"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, Leave this field empty if you don't have one.",
@@ -54,10 +54,10 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "itz_mst_boi"
+         "value": "Itz_mst_boi"
       },
       "SUPPORT_CHAT": {
-         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Mukesh Support than consider you made an enemy.",
+         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Fallen Support than consider you made an enemy.",
          "required": true,
          "value": "worldwide_friend_zone"
       },
@@ -69,12 +69,12 @@
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-1001689952468"
+         "value": "-1001613182747"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-1001689952468"
+         "value": "-1001613182747"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -96,11 +96,6 @@
          "required": false,
          "value": "5207640479"
       },
-      "sw_api": {
-         "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
-         "required": false,
-         "value": "09i2gqhAMVMR1E1HM2jX81FOjj_RJSuplJmdwb5ABK8OULB8qD6JUv5Mz8umicpg"
-      }, 
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
          "value": "True"
@@ -108,36 +103,26 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "5207640479"
+         "value": "1253420280"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "5207640479"
+         "value": "1105579406"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": "5207640479"
+         "value": "5582568404"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "5207640479"
+         "value": "1726528906"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
          "value": "ANYTHING"
-      },
-      "WEBHOOK": {
-         "description": "Setting this to ANYTHING will enable webhooks. If you dont know how this works leave it as it is",
-         "required": false,
-         "value": ""
-      },
-      "PORT": {
-         "description": "Port to use for your webhooks. Better leave this as it is on heroku",
-         "required": false,
-         "value": ""
       },
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
@@ -159,7 +144,7 @@
          "value": "True"
       },
       "DONATION_LINK": {
-         "description": "Link where you would like to receive donations. If you are a noob, better leave it linking to Anonymous",
+         "description": "Link where you would like to receive donations. If you are a noob, better leave it linking to Mukesh",
          "required": false,
          "value": "https://t.me/itz_mst_boi"
       },
@@ -169,19 +154,8 @@
       },
       "START_IMG": {
       "description": "Telegraph link of the image which will be shown at start command.",
-         "required": false,
+         "required": true,
          "value": "https://telegra.ph/file/c84f9c553c6e14e99b93d.jpg"
-   },      
-      "BAN_STICKER": {
-         "description": "ID of the sticker you want to use when banning people.",
-         "required": false,
-         "value": "CAACAgUAAxkBAAEDafNhq5Z0DegqVzauwSighMw5cPWp8QACVgQAAuUG0FRXfCEuBziNzCIE"
-      },
-      "WALL_API": {
-         "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
-         "required": false,
-         "value": ""
-      }
-      
+   }
    }
 }
