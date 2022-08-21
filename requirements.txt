@@ -1,3 +1,4 @@
+cloudscraper
 future
 emoji
 lxml
